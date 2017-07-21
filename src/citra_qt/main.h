@@ -123,6 +123,7 @@ private slots:
     void OnMenuRecentFile();
     void OnSwapScreens();
     void OnConfigure();
+    void OnCheats();
     void OnToggleFilterBar();
     void OnDisplayTitleBars(bool);
     void ToggleWindowMode();
@@ -160,6 +161,7 @@ private:
     GraphicsVertexShaderWidget* graphicsVertexShaderWidget;
     GraphicsTracingWidget* graphicsTracingWidget;
     WaitTreeWidget* waitTreeWidget;
+    std::shared_ptr<class CheatDialog> cheatWindow;
 
     QAction* actions_recent_files[max_recent_files_item];
 
