@@ -174,6 +174,7 @@ set(SRCS
             hw/lcd.cpp
             hw/y2r.cpp
             loader/3dsx.cpp
+            loader/cia.cpp
             loader/elf.cpp
             loader/loader.cpp
             loader/ncch.cpp
@@ -375,6 +376,7 @@ set(HEADERS
             hw/lcd.h
             hw/y2r.h
             loader/3dsx.h
+            loader/cia.h
             loader/elf.h
             loader/loader.h
             loader/ncch.h
